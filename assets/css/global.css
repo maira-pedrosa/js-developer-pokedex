@@ -3,15 +3,19 @@
     box-sizing: border-box;
 }
 
+
+.titulo{
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
 body {
-    background-color: #f6f8fc;
+    background-image: url(/assets/pokeimg.webp);
 }
 
 .content {
     width: 100vw;
     height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+    padding: 1rem;;
 }
 
 @media screen and (min-width: 992px) {

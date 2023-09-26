@@ -99,6 +99,18 @@
     margin-bottom: .25rem;
 }
 
+.pokemon .abilities-box {
+    display: none;
+}
+
+.pokemon:hover .abilities-box {
+    display: block;
+    background-color: rgba(255, 255 255, 0.7);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
 .pokemon .detail {
     display: flex;
     flex-direction: row;
